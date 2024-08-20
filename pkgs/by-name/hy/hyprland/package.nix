@@ -65,7 +65,7 @@ assert lib.assertMsg (!hidpiXWayland)
 
 stdenv.mkDerivation (finalAttrs: {
   pname = "hyprland" + lib.optionalString debug "-debug";
-  version = "0.42.0";
+  version = "0.42.1";
 
   src = fetchFromGitHub {
     owner = "hyprwm";
