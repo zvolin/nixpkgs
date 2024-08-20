@@ -28,7 +28,7 @@ stdenv.mkDerivation (finalAttrs: {
     owner = "hyprwm";
     repo = "aquamarine";
     rev = "v${finalAttrs.version}";
-    hash = "sha256-1RYuBS/CQhtyIeXrLDvGWJhuVG1kiQMG+aYaBkoGnEU=";
+    hash = "sha256-deu8zvgseDg2gQEnZiCda4TrbA6pleE9iItoZlsoMtE=";
   };
 
   nativeBuildInputs = [
